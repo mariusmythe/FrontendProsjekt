@@ -44,7 +44,7 @@ export function SendInn() {
                     <div className="SpacingTop">Forfatter</div>
                     <input id="ForfatterInn" onChange={() =>setForfatter(document.getElementById("ForfatterInn").value)} type="text" placeholder="Forfatter" />
 
-                    <div className="BoxSpace">Tittel</div>
+                    <div className="BoxSpace">Overskrift</div>
                     <input id="TittelInn" onChange={() =>setTittel((document.getElementById("TittelInn").value))} type="text"placeholder="Tittel" />
 
                     <div>Innhold</div>
